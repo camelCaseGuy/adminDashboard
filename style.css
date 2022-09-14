@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  height:100%;
+}
+
+body {
+  background-color: #52a7c1;
+  display: flex;
+  height:100%;
+
+}
+
+.sidebar {
+  width: 250px;
+  background-color: lightblue;
+}
+
+.logo {
+  border: 1px solid white;
+}
+
+.main-links {
+  border: 1px solid white;
+}
+
+.secondary-links {
+  border: 1px solid white;
+}
+
+.content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: #52a7c1;
+  background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
+}
+
+.header {
+  height: 50px;
+  background-color: teal;
+}
+
+.projects {
+  flex: 1;
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 150px);
+  grid-auto-rows: 75px;
+  gap: 32px;
+}
+
+.project {
+  background-color: peachpuff;
+  border: 1px solid black;
+}
